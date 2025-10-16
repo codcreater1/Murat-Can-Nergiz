@@ -41,14 +41,11 @@ I build **clean, efficient, and intelligent systems** — from terminal apps to 
 ## 🌟 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/codcreater1/AIWorkoutTracker">
-    <img src="https://raw.githubusercontent.com/codcreater1/AIWorkoutTracker/main/assets/screenshot.png" width="250px" alt="AI Workout Tracker" title="AI Workout Tracker - Hover for info"/>
+  <a href="https://github.com/codcreater1/Terminal-ToDo-App">
+    <img src="https://raw.githubusercontent.com/codcreater1/Terminal-ToDo-App/main/assets/screenshot.png" width="250px" alt="Terminal ToDo App" title="Terminal ToDo App - Hover for info"/>
   </a>
-  <a href="https://github.com/codcreater1/CryptoWalletSimulator">
-    <img src="https://raw.githubusercontent.com/codcreater1/CryptoWalletSimulator/main/assets/screenshot.png" width="250px" alt="Crypto Wallet Simulator" title="Crypto Wallet Simulator - Hover for info"/>
-  </a>
-  <a href="https://github.com/codcreater1/PortfolioWebsite">
-    <img src="https://raw.githubusercontent.com/codcreater1/PortfolioWebsite/main/assets/screenshot.png" width="250px" alt="Portfolio Website" title="Portfolio Website - Hover for info"/>
+  <a href="https://github.com/codcreater1/C-Advanced-Tax-Simulator">
+    <img src="https://raw.githubusercontent.com/codcreater1/C-Advanced-Tax-Simulator/main/assets/screenshot.png" width="250px" alt="C Advanced Tax Simulator" title="C Advanced Tax Simulator - Hover for info"/>
   </a>
 </p>
 
@@ -76,7 +73,7 @@ I build **clean, efficient, and intelligent systems** — from terminal apps to 
 ## 📫 Connect With Me
 
 <p align="center">
-<a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-contact%20me!-blue?style=for-the-badge" /></a>
+<a href="mailto:muratcannergiz0@gmail.com"><img src="https://img.shields.io/badge/Email-muratcannergiz0@gmail.com-blue?style=for-the-badge" /></a>
 <a href="https://github.com/codcreater1"><img src="https://img.shields.io/badge/GitHub-codcreater1-black?style=for-the-badge&logo=github" /></a>
 <a href="https://www.linkedin.com/in/muratcannergiz"><img src="https://img.shields.io/badge/LinkedIn-Murat%20Can%20Nergiz-blue?style=for-the-badge&logo=linkedin" /></a>
 </p>

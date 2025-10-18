@@ -13,9 +13,7 @@
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=ethereum&logoColor=white" alt="Solidity"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </div>
@@ -26,7 +24,7 @@
 | Project | Tech | Link |
 |---------|------|------|
 | Portfolio Website | React, Tailwind | [Repo](https://github.com/codcreater1/portfolio) |
-| Tax Simulator | C++ | [Repo](https://github.com/codcreater1/tax-simulator) |
+| Tax Simulator | C++ | [Repo](https://github.com/codcreater1/taxi-simulator) |
 | Smart Contract | Solidity | [Repo](https://github.com/codcreater1/solidity-project) |
 | Terminal Todo App | C++ | [Repo](https://github.com/codcreater1/terminal-todo) |
 | Blockchain Voting App | Solidity, React | [Repo](https://github.com/codcreater1/blockchain-voting) |
@@ -69,7 +67,7 @@
   <a href="https://github.com/codcreater1">
     <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="mailto:nergiz.muratcan@gmail.com">
+  <a href="mailto:muratcannergiz0@gmail.com">
     <img src="https://img.shields.io/badge/Email-nergiz.muratcan@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </div>

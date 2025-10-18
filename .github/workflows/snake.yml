@@ -1,17 +1,12 @@
-name: GitHub Snake Game
+name: GitHub Snake Game 🐍
 
 permissions:
-  contents: write # 👈 Bu Action'ın depoya yazabilmesi için gerekli
+  contents: write # Action'ın depoya yazabilmesi için gerekli
 
 on:
-  # Schedule the workflow to run daily at midnight UTC
   schedule:
-    - cron: "0 0 * * *"
-
-  # Allow manual triggering of the workflow
-  workflow_dispatch:
-
-  # Trigger the workflow on pushes to the main branch
+    - cron: "0 0 * * *" # Her gün gece 00:00 UTC'de çalışır
+  workflow_dispatch: # Manuel başlatma
   push:
     branches:
       - main
@@ -22,18 +17,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # Step 1: Checkout the repository
-      - name: Checkout Repository
+      - name: 🛠 Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Generate the snake animations
-      - name: Generate GitHub Contributions Snake Animations
+      - name: 🐍 Generate GitHub Snake Animation
         uses: Platane/snk@v3
         with:
-          # GitHub username to generate the animation for
           github_user_name: codcreater1
-
-          # Define the output files and their configurations
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -41,12 +31,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 3: Deploy the generated files to the 'output' branch
-      - name: Deploy to Output Branch
+      - name: 🚀 Deploy Snake Files to output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
           publish_branch: output
-          # Optionally, you can set a custom commit message
-          commit_message: "Update snake animation [skip ci]"
+          publish_dir: ./dist
+          commit_message: "🐍 Update snake animation [skip ci]"

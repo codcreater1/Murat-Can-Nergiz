@@ -26,7 +26,7 @@
 | Portfolio Website | React, Tailwind | [Repo](https://github.com/codcreater1/portfolio) |
 | Tax Simulator | C++ | [Repo](https://github.com/codcreater1/taxi-simulator) |
 | Smart Contract | Solidity | [Repo](https://github.com/codcreater1/solidity-project) |
-| Terminal Todo App | C++ | [Repo](https://github.com/codcreater1/terminal-todo) |
+| Terminal Todo App | C++ | [Repo](https://github.com/codcreater1/Termainal-Todo-App) |
 | Blockchain Voting App | Solidity, React | [Repo](https://github.com/codcreater1/blockchain-voting) |
 
 ---

@@ -68,7 +68,7 @@
     <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="mailto:muratcannergiz0@gmail.com">
-    <img src="https://img.shields.io/badge/Email-nergiz.muratcan@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-muratcannergiz0@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </div>
 

@@ -23,9 +23,9 @@
 ## 🚀 Featured Projects
 | Project | Tech | Link |
 |---------|------|------|
-| Portfolio Website | React, Tailwind | [Repo](https://github.com/codcreater1/portfolio) |
-| Tax Simulator | C++ | [Repo](https://github.com/codcreater1/taxi-simulator) |
-| Smart Contract | Solidity | [Repo](https://github.com/codcreater1/solidity-project) |
+| Portfolio Website | React, Tailwind | [Repo](https://github.com/codcreater1/simple-me-web) |
+| Taxi Simulator | C++ | [Repo](https://github.com/codcreater1/-C-Advanced-Taxi-Simulation) |
+| Smart Contract | Solidity | [Repo](https://github.com/codcreater1/learning-solidity) |
 | Terminal Todo App | C++ | [Repo](https://github.com/codcreater1/Termainal-Todo-App) |
 | Blockchain Voting App | Solidity, React | [Repo](https://github.com/codcreater1/blockchain-voting) |
 

@@ -89,3 +89,10 @@
 <summary>Hover to see magic!</summary>
 <img src="https://raw.githubusercontent.com/codcreater1/assets/main/hover.gif" alt="Hover GIF" width="300"/>
 </details>
+
+
+
+
+
+
+![GitHub Snake Dark Animasyonu](https://raw.githubusercontent.com/codcreater1/Murat-Can-Nergiz/output/dist/github-snake-dark.svg)

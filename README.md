@@ -93,9 +93,10 @@
 
 
 
----
+------
 
-![GitHub Snake](https://raw.githubusercontent.com/codcreater1/Murat-Can-Nergiz/output/dist/github-snake-dark.svg)
+### 🐍 GitHub Snake
+![GitHub Snake](https://codcreater1.github.io/Murat-Can-Nergiz/github-snake-dark.svg)
 
 
 

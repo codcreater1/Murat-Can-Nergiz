@@ -1,85 +1,52 @@
-<!-- Ultra PRO GitHub Profile README for Murat Can Nergiz -->
+# 👋 Hi, I’m Murat Can Nergiz
+**Computer Engineering Student | Full-Stack & Blockchain Developer**  
+> "Turning ideas into code, one commit at a time."
 
-<p align="center">
-  <img src="https://camo.githubusercontent.com/1f2d1a34fa7c42b9b4eb10e0ecbcbf94b8e3f11a1d978f89f9eac1d9cf1bfb07/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6d70657465722d436f6c6f723f7374796c653d666c61742d737175617265" alt="Hero Badge"/>
-</p>
-
-<h1 align="center">👋 Hey, I'm <span style="color:#0ff">Murat Can Nergiz</span></h1>
-<p align="center">
-💻 Computer Engineering Student | 🧠 AI & C++ Enthusiast | 🌍 Based in Poland
-</p>
-
-<p align="center">
-<a href="https://github.com/codcreater1"><img src="https://img.shields.io/github/followers/codcreater1?label=Followers&style=social" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Tech-C++%20%7C%20Python%20%7C%20Solidity-blue" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Open%20to%20Work-Yes-success" /></a>
-</p>
+![Header](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
 
 ---
 
-## 🧩 About Me
-
-I'm a **Computer Engineering student** passionate about **AI**, **C++**, and **Web3**.  
-I build **clean, efficient, and intelligent systems** — from terminal apps to smart contracts.  
-
-> 💡 _"Write code that looks simple but thinks smart."_  
-
----
-
-## 🛠 Tech Stack
-
-<p align="center">
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-</p>
+## 💻 Tech Stack
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=ethereum&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
-## 🌟 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/codcreater1/Terminal-ToDo-App">
-    <img src="https://raw.githubusercontent.com/codcreater1/Terminal-ToDo-App/main/assets/screenshot.png" width="250px" alt="Terminal ToDo App" title="Terminal ToDo App - Hover for info"/>
-  </a>
-  <a href="https://github.com/codcreater1/C-Advanced-Tax-Simulator">
-    <img src="https://raw.githubusercontent.com/codcreater1/C-Advanced-Tax-Simulator/main/assets/screenshot.png" width="250px" alt="C Advanced Tax Simulator" title="C Advanced Tax Simulator - Hover for info"/>
-  </a>
-</p>
+## 🚀 Featured Projects
+[![Portfolio](https://img.shields.io/badge/Portfolio-React?style=for-the-badge)](https://github.com/muratcannergiz/portfolio)  
+[![Tax Simulator](https://img.shields.io/badge/Tax%20Simulator-C++?style=for-the-badge)](https://github.com/muratcannergiz/tax-simulator)  
+[![Smart Contract](https://img.shields.io/badge/Smart%20Contract-Solidity?style=for-the-badge)](https://github.com/muratcannergiz/solidity-project)  
+[![Terminal Todo App](https://img.shields.io/badge/Terminal%20Todo-C++?style=for-the-badge)](https://github.com/muratcannergiz/terminal-todo)
 
 ---
 
 ## 📊 GitHub Stats
-
-<p align="center">
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=codcreater1&show_icons=true&theme=tokyonight&hide_border=true" />
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codcreater1&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+![Murat's GitHub stats](https://github-readme-stats.vercel.app/api?username=muratcannergiz&show_icons=true&theme=radical&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muratcannergiz&layout=compact&theme=radical)
 
 ---
 
-## ✍️ Latest Dev Notes
-
-<p align="center">
-- 🧱 Building smarter, smaller, faster C++ tools  
-- 🔍 Learning Solidity smart contracts  
-- 🚀 Experimenting with AI + CLI hybrid apps  
-</p>
+## 🌱 Currently Learning
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=ethereum&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FF6600?style=for-the-badge&logoColor=white)
 
 ---
 
-## 📫 Connect With Me
-
-<p align="center">
-<a href="mailto:muratcannergiz0@gmail.com"><img src="https://img.shields.io/badge/Email-muratcannergiz0@gmail.com-blue?style=for-the-badge" /></a>
-<a href="https://github.com/codcreater1"><img src="https://img.shields.io/badge/GitHub-codcreater1-black?style=for-the-badge&logo=github" /></a>
-<a href="https://www.linkedin.com/in/muratcannergiz"><img src="https://img.shields.io/badge/LinkedIn-Murat%20Can%20Nergiz-blue?style=for-the-badge&logo=linkedin" /></a>
-</p>
+## 📫 Connect with me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-MuratCan-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muratcannergiz)  
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muratcannergiz)  
+[![Email](https://img.shields.io/badge/Email-nergiz.muratcan@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nergiz.muratcan@gmail.com)
 
 ---
 
-<p align="center">
-  <i>⚡ Built with ❤️ by Murat Can Nergiz — ultra professional, interactive, neon-themed profile.</i>
-</p>
+## ⚡ Fun Facts
+- Coffee addicted ☕  
+- Always learning something new 🚀  
+- Love solving problems & optimizing code 🧠

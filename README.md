@@ -4,7 +4,7 @@
 > "Turning ideas into code, one commit at a time."  
 > *Building, learning, and innovating every day.*
 
-![Header GIF](https://media.giphy.com/media/l3q2IpF5q0d0r3uAo/giphy.gif)
+![Header GIF](https://raw.githubusercontent.com/codcreater1/assets/main/header.gif)
 
 ---
 
@@ -87,5 +87,5 @@
 ## ✨ Bonus: Hover / Collapsible GIF Effect
 <details>
 <summary>Hover to see magic!</summary>
-<img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" alt="Hover GIF" width="300"/>
+<img src="https://raw.githubusercontent.com/codcreater1/assets/main/hover.gif" alt="Hover GIF" width="300"/>
 </details>

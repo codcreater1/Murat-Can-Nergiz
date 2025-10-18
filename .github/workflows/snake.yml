@@ -1,40 +1,34 @@
-name: GitHub Snake Game 🐍
+name: GitHub Snake 🐍
 
 permissions:
-  contents: write # Action'ın depoya yazabilmesi için gerekli
+  contents: write
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Her gün gece 00:00 UTC'de çalışır
-  workflow_dispatch: # Manuel başlatma
-  push:
-    branches:
-      - main
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     steps:
-      - name: 🛠 Checkout Repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: 🐍 Generate GitHub Snake Animation
-        uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: codcreater1
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🚀 Deploy Snake Files to output Branch
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Push Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
-          commit_message: "🐍 Update snake animation [skip ci]"
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

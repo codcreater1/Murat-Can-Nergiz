@@ -96,6 +96,7 @@
 ---
 
 ### 🐍 GitHub Snake
-![GitHub Snake Dark Animasyonu](https://raw.githubusercontent.com/codcreater1/codcreater1/output/dist/github-snake-dark.svg)
+![GitHub Snake Dark Animasyonu](https://raw.githubusercontent.com/codcreater1/Murat-Can-Nergiz/output/dist/github-snake-dark.svg)
+
 
 

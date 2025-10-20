@@ -1,7 +1,8 @@
 # 👋 Hey, I’m Murat Can Nergiz
 **Computer Engineering Student | Full-Stack & Blockchain Developer**  
 
-> "Turning ideas into code, one commit at a time."  
+> "Turning ideas into code, one commit at a time."
+> 
 > *Building, learning, and innovating every day.*
 
 ![Header GIF](https://raw.githubusercontent.com/codcreater1/assets/main/header.gif)

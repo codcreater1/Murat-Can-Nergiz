@@ -83,6 +83,7 @@
 - Always learning new technologies 🚀  
 - Love solving problems & optimizing code 🧠  
 - Active contributor to Open Source 🌍  
+- Building AI agents that actually work in production 🤖  
 
 ---
 
@@ -96,4 +97,4 @@
 
 ### 🐍 GitHub Snake
 ![GitHub Snake](https://codcreater1.github.io/Murat-Can-Nergiz/github-snake-dark.svg)
-<!-- last-active: 2026-07-01 -->
+<!-- last-active: 2026-07-02 -->

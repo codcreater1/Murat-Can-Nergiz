@@ -1,0 +1,25 @@
+name: Daily Profile Update
+
+on:
+  schedule:
+    - cron: '1 21 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README
+        run: |
+          TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
+          sed -i "s/<!-- last-active: [0-9-]* -->/<!-- last-active: $TODAY -->/" README.md
+          git diff --quiet && echo "Already up to date" && exit 0
+          git config user.name "Murat Can Nergiz"
+          git config user.email "muratcannergiz0@gmail.com"
+          git add README.md
+          git commit -m "chore: daily profile update [$TODAY]"
+          git push

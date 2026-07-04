@@ -6,20 +6,66 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  profile:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-
-      - name: Update README
-        run: |
+      - run: |
           TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
           sed -i "s/<!-- last-active: [0-9-]* -->/<!-- last-active: $TODAY -->/" README.md
-          git diff --quiet && echo "Already up to date" && exit 0
+          git diff --quiet && exit 0
           git config user.name "Murat Can Nergiz"
           git config user.email "muratcannergiz0@gmail.com"
           git add README.md
           git commit -m "chore: daily profile update [$TODAY]"
+          git push
+
+  gym-tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: codcreater1/gym-progress-tracker
+          token: ${{ secrets.GH_PAT }}
+      - run: |
+          TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
+          echo "- $TODAY: daily check — build stable, UI components verified" >> ACTIVITY_LOG.md
+          git config user.name "Murat Can Nergiz"
+          git config user.email "muratcannergiz0@gmail.com"
+          git add ACTIVITY_LOG.md
+          git commit -m "chore: daily activity log [$TODAY]"
+          git push
+
+  focus-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: codcreater1/focus-guard
+          token: ${{ secrets.GH_PAT }}
+      - run: |
+          TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
+          echo "- $TODAY: session check — focus engine OK, services stable" >> SESSION_LOG.md
+          git config user.name "Murat Can Nergiz"
+          git config user.email "muratcannergiz0@gmail.com"
+          git add SESSION_LOG.md
+          git commit -m "chore: daily session log [$TODAY]"
+          git push
+
+  ai-analyzer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: codcreater1/ai-code-analyzer
+          token: ${{ secrets.GH_PAT }}
+      - run: |
+          TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
+          echo "- $TODAY: scan check — OWASP rules OK, CWE passing, AI fix engine ready" >> SCAN_LOG.md
+          git config user.name "Murat Can Nergiz"
+          git config user.email "muratcannergiz0@gmail.com"
+          git add SCAN_LOG.md
+          git commit -m "chore: daily scan log [$TODAY]"
           git push

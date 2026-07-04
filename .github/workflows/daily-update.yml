@@ -20,6 +20,7 @@ jobs:
           git config user.email "muratcannergiz0@gmail.com"
           git add README.md
           git commit -m "chore: daily profile update [$TODAY]"
+          git pull --rebase origin main
           git push
 
   agentic-coordinator:

@@ -17,7 +17,7 @@ jobs:
           sed -i "s/<!-- last-active: [0-9-]* -->/<!-- last-active: $TODAY -->/" README.md
           git diff --quiet && exit 0
           git config user.name "Murat Can Nergiz"
-          git config user.email "muratcannergiz0@gmail.com"
+          git config user.email "141832088+codcreater1@users.noreply.github.com"
           git add README.md
           git commit -m "chore: daily profile update [$TODAY]"
           git pull --rebase origin main
@@ -35,7 +35,7 @@ jobs:
           if grep -q "## $TODAY" CHANGELOG.md; then exit 0; fi
           sed -i "/## \[Unreleased\]/a\\## $TODAY\n- Daily sync: AI evaluation service operational, n8n workflow active, SQLite stable" CHANGELOG.md
           git config user.name "Murat Can Nergiz"
-          git config user.email "muratcannergiz0@gmail.com"
+          git config user.email "141832088+codcreater1@users.noreply.github.com"
           git add CHANGELOG.md
           git commit -m "chore: daily changelog update [$TODAY]"
           git push
@@ -51,7 +51,7 @@ jobs:
           TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
           echo "- $TODAY: daily check - build stable, UI components verified" >> ACTIVITY_LOG.md
           git config user.name "Murat Can Nergiz"
-          git config user.email "muratcannergiz0@gmail.com"
+          git config user.email "141832088+codcreater1@users.noreply.github.com"
           git add ACTIVITY_LOG.md
           git commit -m "chore: daily activity log [$TODAY]"
           git push
@@ -67,7 +67,7 @@ jobs:
           TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
           echo "- $TODAY: session check - focus engine OK, services stable" >> SESSION_LOG.md
           git config user.name "Murat Can Nergiz"
-          git config user.email "muratcannergiz0@gmail.com"
+          git config user.email "141832088+codcreater1@users.noreply.github.com"
           git add SESSION_LOG.md
           git commit -m "chore: daily session log [$TODAY]"
           git push
@@ -83,7 +83,7 @@ jobs:
           TODAY=$(TZ=Europe/Istanbul date +%Y-%m-%d)
           echo "- $TODAY: scan check - OWASP rules OK, CWE passing, AI fix engine ready" >> SCAN_LOG.md
           git config user.name "Murat Can Nergiz"
-          git config user.email "muratcannergiz0@gmail.com"
+          git config user.email "141832088+codcreater1@users.noreply.github.com"
           git add SCAN_LOG.md
           git commit -m "chore: daily scan log [$TODAY]"
           git push

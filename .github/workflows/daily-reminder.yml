@@ -1,0 +1,72 @@
+name: Daily Task Reminder
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # ~09:00 Istanbul saati
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch open issues across projects
+        id: issues
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          REPOS=(
+            "codcreater1/pomelo-pdf-signer"
+            "codcreater1/CryptoTracker"
+            "codcreater1/cpphttp"
+            "codcreater1/vision-tracker"
+            "codcreater1/focus-guard"
+            "codcreater1/ai-code-analyzer"
+            "codcreater1/gym-progress-tracker"
+            "codcreater1/agentic-internship-coordinator"
+            "codcreater1/GhostNet-Sentinel"
+          )
+
+          BODY_FILE=$(mktemp)
+          echo "<h2>Bugün için açık işler</h2>" >> "$BODY_FILE"
+
+          FOUND=0
+          for repo in "${REPOS[@]}"; do
+            ISSUES=$(gh issue list --repo "$repo" --state open --json number,title,url --limit 5 2>/dev/null)
+            COUNT=$(echo "$ISSUES" | jq 'length')
+            if [ "$COUNT" -gt 0 ]; then
+              FOUND=1
+              echo "<h3>$repo</h3><ul>" >> "$BODY_FILE"
+              echo "$ISSUES" | jq -r '.[] | "<li><a href=\"" + .url + "\">#" + (.number|tostring) + " " + .title + "</a></li>"' >> "$BODY_FILE"
+              echo "</ul>" >> "$BODY_FILE"
+            fi
+          done
+
+          if [ "$FOUND" -eq 0 ]; then
+            TASKS=(
+              "cpphttp: yeni bir route/middleware ekle veya test yaz"
+              "vision-tracker: yeni bir gesture tanıma senaryosu dene"
+              "ai-code-analyzer: fallback parser'a bir edge-case testi ekle"
+              "focus-guard: küçük bir UI iyileştirmesi yap"
+              "Pomelo: açık bir PR'ı review et veya bug fix yap"
+              "gym-progress-tracker: sparkline chart'a yeni bir metrik ekle"
+              "GhostNet-Sentinel: README'yi güncelle veya bir issue aç"
+              "LeetCode: bugünkü problemi çöz ve commit'le"
+            )
+            IDX=$(( $(date +%j) % ${#TASKS[@]} ))
+            echo "<p><b>Açık issue bulunamadı.</b> Bugün için öneri:</p>" >> "$BODY_FILE"
+            echo "<p>${TASKS[$IDX]}</p>" >> "$BODY_FILE"
+          fi
+
+          echo "body_path=$BODY_FILE" >> "$GITHUB_OUTPUT"
+
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Günlük görev hatırlatması"
+          to: ${{ secrets.MAIL_TO }}
+          from: Daily Reminder
+          html_body: file://${{ steps.issues.outputs.body_path }}

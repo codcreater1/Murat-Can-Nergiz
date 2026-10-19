@@ -57,10 +57,27 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🗳️ <a href="https://github.com/codcreater1/blockchain-voting">Blockchain Voting App</a></h3>
-      <p>Decentralized voting dApp backed by Solidity smart contracts.</p>
-      <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white"/>
+      <h3>🚨 <a href="https://github.com/codcreater1/OpsPulse-AI-Autonomous-Incident-Response-RCA-Agent">OpsPulse AI</a></h3>
+      <p>Incident investigation &amp; root-cause analysis agent with a deterministic quality gate and human-approved GitHub remediation.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LLM_Agent-7c3aed?style=flat-square"/>
+      <img src="https://img.shields.io/badge/CI-passing-22c55e?style=flat-square"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎓 <a href="https://github.com/codcreater1/Internship-report-reviewer">Internship Report Reviewer</a></h3>
+      <p>Checks internship PDFs, tells students what to fix, and issues a signed certificate only on coordinator approval.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📏 <a href="https://github.com/codcreater1/AI-Evaluation">AI Evaluation Platform</a></h3>
+      <p>Reusable evaluation infrastructure for AI apps, built on Langfuse and wired to real deployed systems.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square"/>
     </td>
     <td width="50%" valign="top">
       <h3>⌨️ <a href="https://github.com/codcreater1/Termainal-Todo-App">Terminal Todo App</a></h3>
@@ -79,7 +96,6 @@
 
 <img src="https://streak-stats.demolab.com?user=codcreater1&theme=tokyonight&hide_border=true" alt="Streak"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=codcreater1&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity graph"/>
 
 <img src="https://codcreater1.github.io/Murat-Can-Nergiz/github-snake-dark.svg" alt="Contribution snake"/>
 </div>

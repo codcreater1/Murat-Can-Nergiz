@@ -2,9 +2,12 @@
 
 <img src="assets/hero.svg" alt="Murat Can Nergiz" width="100%"/>
 
+<h2>Murat Can Nergiz</h2>
+<b>Computer Engineering Student · Backend &amp; AI Developer</b>
+
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=codcreater1&label=Visitors&color=7c3aed&style=for-the-badge" alt="Visitors"/>
+<a href="mailto:muratcannergiz0@gmail.com"><img src="https://img.shields.io/badge/muratcannergiz0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <img src="https://img.shields.io/github/followers/codcreater1?style=for-the-badge&logo=github&color=0ea5e9" alt="Followers"/>
 
 <br/><br/>
@@ -105,7 +108,7 @@
 <div align="center"><img src="assets/h-connect.svg" width="100%" alt="Let's Connect"/>
 
 <a href="https://www.linkedin.com/in/murat-can-nergiz-612471317/"><img src="https://img.shields.io/badge/LinkedIn-Murat_Can_Nergiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:muratcannergiz0@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:muratcannergiz0@gmail.com"><img src="https://img.shields.io/badge/muratcannergiz0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://github.com/codcreater1"><img src="https://img.shields.io/badge/GitHub-codcreater1-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 <br/><br/>

@@ -47,7 +47,6 @@
     <td width="50%" valign="top">
       <h3>📚 <a href="https://github.com/codcreater1/ata-rag">ATA RAG</a></h3>
       <p>RAG pipeline with vector search and LLM observability.</p>
-      <a href="https://github.com/codcreater1/ata-rag"><img src="https://raw.githubusercontent.com/codcreater1/ata-rag/HEAD/docs/screenshots/dashboard.png" alt="ATA RAG dashboard" width="100%"/></a><br/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
       <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
       <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
@@ -63,7 +62,6 @@
     <td width="50%" valign="top">
       <h3>🚨 <a href="https://github.com/codcreater1/OpsPulse-AI-Autonomous-Incident-Response-RCA-Agent">OpsPulse AI</a></h3>
       <p>Incident investigation &amp; root-cause analysis agent with a deterministic quality gate and human-approved GitHub remediation.</p>
-      <a href="https://github.com/codcreater1/OpsPulse-AI-Autonomous-Incident-Response-RCA-Agent"><img src="https://raw.githubusercontent.com/codcreater1/OpsPulse-AI-Autonomous-Incident-Response-RCA-Agent/HEAD/docs/images/console-detail-light.png" alt="OpsPulse console" width="100%"/></a><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
       <img src="https://img.shields.io/badge/LLM_Agent-7c3aed?style=flat-square"/>
       <img src="https://img.shields.io/badge/CI-passing-22c55e?style=flat-square"/>
